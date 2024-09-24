@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agro-DiagnosticoIA plataforma</title>
+    <link rel="icon" href="/static/images/iconADIA.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/stylesplat.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header>
+    <div class="menu">
+        <img src="/static/images/logoAgroDiagnosticoIA.png" class="imglogo">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#"><img src="/static/images/botonMenu.PNG"></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div>
+    <h1>Y aquí empieza la magia...</h1>
+    <p>Para que todo salga <b>lo mejor posible</b>, tus fotos deben seguir los siguientes lineamientos:</p>
+    <ol>
+        <li>Asegúrate de que haya suficiente luz.</li>
+        <li>Enfoca la hoja y toma la foto a X distancia.</li>
+        <li>Asegúrate de tomar la foto lo más de frente posible.</li>
+        <li>Trata de que la hoja esté libre de tierra.</li>
+        <li>Intenta que la foto abarque toda la hoja.</li>
+    </ol>
+</div>
+
+<div>
+    <h1>¡Estás listo para subir tus fotos!</h1>
+    <p>*Recuerda que tus imágenes deben ser en formato JPEG, PNG y no pueden pesar más de 20 MB cada una.</p>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <form class="formulario" method="post" action="/upload/" enctype="multipart/form-data">
+        <img src="/static/images/ImagePlaceHolder.jpg" class="imgholder" id="img">
+        <input type="file" name="imagen" id="imagen" accept="image/*">
+        <label for="imagen">Subir imagen</label>
+        <button class="boton2" type="button" onclick="procesarImagen()">Diagnosticar</button>
+    </form>
+    <img id="resultImage" src="" alt="Processed Image" style="display:none;"/>
+</div>
+
+
+<div>
+    <header class="contenedor4">
+        <div class="menu2">
+            <nav class="nav2">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<div class="contenedor5">
+    <h4>Medellín, Antioquia, Colombia</h4>
+    <h4>© 2024 Agro-DiagnósticoIA. Todos los derechos reservados.</h4>
+</div>
+
+<script src="/static/js/scrip.js"></script>
+</body>
+</html>
+
+

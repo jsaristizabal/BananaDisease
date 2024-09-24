@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3ead8;
+}
+
+header {
+    background: #f3ead8;
+    width: 100%;
+}
+
+.menu {
+    width: 100%; /* Cambia a 100% */
+    max-width: 100%; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el menú */
+}
+
+.imglogo {
+    width: 23%;
+    padding: 20px;
+}
+
+nav {
+    display: flex; /* Alinea los elementos del menú */
+}
+
+nav ul {
+    display: flex; /* Cambia a flex para los elementos de la lista */
+}
+
+nav ul li {
+    color: #47484a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+    list-style: none;
+    margin: 0 20px; /* Cambia a márgenes laterales */
+    padding: 20px 0; /* Reduce el padding vertical */
+}
+
+nav ul li a {
+    color: #47484a;
+    text-decoration: none;
+}
+
+h1 {
+    color: #47484a;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; /* Cambia a centrado */
+    padding: 40px;
+}
+
+p {
+    color: #84868d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: center; /* Cambia a centrado */
+    padding: 40px;
+}
+
+ol {
+    color: #84868d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: center; /* Cambia a centrado */
+    padding: 40px;
+}
+
+.formulario {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boton2 {
+    background-color: #47484a;
+    color: #f3ead8;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #84868d;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.menu2 {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto; /* Centra el menú */
+}
+
+.nav2 {
+    color: #47484a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+}
+
+.contenedor4 {
+    background-color: #ffffff;
+}
+
+.contenedor5 {
+    border-top: 1px solid #d5d8dc;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #abb2b9; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+}
+
+.imgholder {
+    width: 40%;
+    margin: 0 auto; /* Centra el holder de imagen */
+    text-align: center;
+}
+
+form:first-child input {
+    display: none;
+}
+
+form:first-child label {
+    background-color: #47484a;
+    color: #f3ead8;
+    border-radius: 5px;
+    border: 1px solid #84868d;
+    padding: 9px 50px;
+    cursor: pointer;
+}
+
+

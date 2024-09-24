@@ -1,0 +1,199 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3ead8;
+}
+
+header {
+    background: #f3ead8;
+    width: 100%;
+}
+
+.menu {
+    width: 100%; /* Cambia a 100% */
+    max-width: 100%; /* Asegúrate de que no exceda el ancho de la pantalla */
+    margin: 0 auto; /* Centra el menú */
+    display: flex;
+    justify-content: space-between; /* Alinea logo y nav */
+    padding: 0 5px; /* Agrega padding */
+}
+
+.imglogo {
+    width: 23%;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+}
+
+nav ul {
+    display: flex; /* Cambia a flex para los elementos de la lista */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si es necesario */
+    justify-content: center; /* Centra los elementos */
+    padding: 0; /* Elimina el padding si existe */
+    margin: 0; /* Elimina el margen */
+}
+
+nav ul li {
+    color: #47484a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+    list-style: none;
+    margin: 0 10px; /* Cambia a márgenes laterales más pequeños */
+    padding: 20px 0; /* Reduce el padding vertical */
+    flex: 1 1 auto; /* Permitir que los elementos crezcan o se encojan */
+    min-width: 150px; /* Establecer un ancho mínimo */
+}
+
+nav ul li a {
+    color: #47484a;
+    text-decoration: none;
+}
+
+h1 {
+    color: #47484a;
+    font-weight: bolder;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; /* Cambia a centrado */
+    padding: 20px;
+}
+
+.parr1 {
+    color: #84868d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: center; /* Cambia a centrado */
+    padding: 40px;
+}
+
+.contenedor1 {
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+    max-width: 1200px; /* O un valor que desees */
+    margin: 0 auto; /* Centra el contenedor */
+    display: flex;
+    border-bottom: 1px solid #d5d8dc;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+.imagen {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+h2 {
+    color: #47484a;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+.contenedor2 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste */
+    justify-content: center; /* Centra los elementos */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+h3 {
+    color: #47484a;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parr2 {
+    color: #84868d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin: 10px 20px; /* Ajusta márgenes laterales */
+}
+
+.imagen2 {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 30px 0; /* Margen superior e inferior */
+}
+
+.contenedor3 {
+    border-top: 1px solid #d5d8dc;
+    margin-bottom: 50px;
+}
+
+.parr3 {
+    color: #84868d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formulario {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.campo {
+    background-color: #f3ead8;
+    width: 250px;
+    height: 40px;
+    color: #84868d;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #84868d;
+    padding: 0 4px;
+}
+
+.boton {
+    background-color: #47484a;
+    width: 250px;
+    height: 40px;
+    color: #f3ead8;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #84868d;
+    padding: 0 4px;
+}
+
+.menu2 {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto; /* Centra el menú */
+}
+
+.nav2 {
+    color: #47484a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+}
+
+.contenedor4 {
+    background-color: #ffffff;
+}
+
+.contenedor5 {
+    border-top: 1px solid #d5d8dc;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #abb2b9; 
+    text-align: center; /* Agregar alineación centrada */
+}
+
+

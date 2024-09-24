@@ -1,0 +1,94 @@
+/* Establece la altura del HTML y del body para permitir el uso de flexbox */
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la altura */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #C0C0C0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usa flexbox para organizar el contenido */
+    flex-direction: column; /* Organiza el contenido en columnas */
+}
+
+/* Sección de header */
+header {
+    background-color: #a1ce77;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    border-bottom: 3px solid #808080;
+    position: relative; /* Permite el uso de position absolute en elementos hijos */
+}
+
+header .logo {
+    width: 200px; /* Ajusta este valor según el tamaño del logo */
+    height: auto;
+    position: absolute; /* Permite que el logo se superponga al header */
+    top: 10px;
+    left: 10px;
+}
+
+/* Estilo para títulos */
+h1, h2 {
+    font-weight: bold;
+    color: #000080;
+    text-shadow: 1px 1px #808080;
+}
+
+/* Sección principal del formulario */
+section {
+    margin: 5px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid #808080;
+    box-shadow: 3px 3px #A9A9A9;
+    flex: 1; /* Permite que esta sección ocupe el espacio disponible */
+}
+
+/* Estilo para botones */
+button {
+    padding: 10px 20px;
+    background-color: #D3D3D3;
+    color: black;
+    border: 2px solid #808080;
+    box-shadow: 2px 2px #A9A9A9;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+}
+
+/* Estilo para el input de tipo file */
+input[type="file"] {
+    font-family: 'Courier New', monospace;
+    background-color: #FFFFFF;
+    border: 2px solid #808080;
+    padding: 5px;
+}
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a1ce77;
+    color: white;
+    border-top: 3px solid #808080;
+    margin-top: 20px; /* Espacio superior para separar del contenido */
+}
+
+/* Estilo para enlaces */
+a {
+    color: #000080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
